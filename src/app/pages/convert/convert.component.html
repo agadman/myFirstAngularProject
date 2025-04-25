@@ -1,26 +1,27 @@
-<h2>Konverteringsverktyg</h2>
-
-<section>
-  <label for="meters">Meter:</label>
-  <input type="number" id="meters" [(ngModel)]="meters" />
-  <button (click)="convertMetersToFeet()">→ Feet</button>
-  <p *ngIf="resultMetersToFeet !== null">Resultat: {{ resultMetersToFeet }} feet</p>
-</section>
-<section>
-  <label for="feet">Feet:</label>
-  <input type="number" id="feet" [(ngModel)]="feet" />
-  <button (click)="convertFeetToMeters()">→ Meter</button>
-  <p *ngIf="resultFeetToMeters !== null">Resultat: {{ resultFeetToMeters }} meter</p>
-</section>
-<section>
-  <label for="fahrenheit">Fahrenheit:</label>
-  <input type="number" id="fahrenheit" [(ngModel)]="fahrenheit" />
-  <button (click)="convertFahrenheitToCelsius()">→ Celsius</button>
-  <p *ngIf="resultFahrenheitToCelsius !== null">Resultat: {{ resultFahrenheitToCelsius }} °C</p>
-</section>
-<section>
-  <label for="celsius">Celsius:</label>
-  <input type="number" id="celsius" [(ngModel)]="celsius" />
-  <button (click)="convertCelsiusToFahrenheit()">→ Fahrenheit</button>
-  <p *ngIf="resultCelsiusToFahrenheit !== null">Resultat: {{ resultCelsiusToFahrenheit }} °F</p>
-</section>
+<div>
+  <h2>Konverteringsverktyg</h2>
+  <section>
+    <label for="meters">Meter:</label>
+    <input type="number" id="meters" [(ngModel)]="meters" />
+    <button (click)="convertMetersToFeet()">→ Feet</button>
+    <p *ngIf="resultMetersToFeet !== null">Resultat: {{ resultMetersToFeet }} feet</p>
+  </section>
+  <section>
+    <label for="feet">Feet:</label>
+    <input type="number" id="feet" [(ngModel)]="feet" />
+    <button (click)="convertFeetToMeters()">→ Meter</button>
+    <p *ngIf="resultFeetToMeters !== null">Resultat: {{ resultFeetToMeters }} meter</p>
+  </section>
+  <section>
+    <label for="fahrenheit">Fahrenheit:</label>
+    <input type="number" id="fahrenheit" [(ngModel)]="fahrenheit" />
+    <button (click)="convertFahrenheitToCelsius()">→ Celsius</button>
+    <p *ngIf="resultFahrenheitToCelsius !== null">Resultat: {{ resultFahrenheitToCelsius }} °C</p>
+  </section>
+  <section>
+    <label for="celsius">Celsius:</label>
+    <input type="number" id="celsius" [(ngModel)]="celsius" />
+    <button (click)="convertCelsiusToFahrenheit()">→ Fahrenheit</button>
+    <p *ngIf="resultCelsiusToFahrenheit !== null">Resultat: {{ resultCelsiusToFahrenheit }} °F</p>
+  </section>
+</div>
