@@ -1,15 +1,19 @@
 <div>
     <h2>Välkommen till mitt konverteringsverktyg</h2>
     <p>Här kan du enkelt konvertera mellan meter och fot, samt celsius och fahrenheit. En enkel men användbar webbapp skapad med Angular.</p>
-    <img src="conversion-image.jpg" alt="Illustration av mått och temperatur" />
+    <img src="conversion-image.jpg" alt="Ett måttband" />
     <section>
-      <article>
-        <h3>Om webbplatsen</h3>
-        <p>Läs mer om hur denna webbapp byggdes och vad jag lärt mig.</p>
-      </article>
-      <article>
-        <h3>Testa konvertering</h3>
-        <p>Gå till konverteringssidan för att omvandla mått och temperaturer direkt.</p>
-      </article>
+      <a routerLink="/convert">
+        <article>
+          <h3>Testa konvertering</h3>
+          <p>Gå till konverteringssidan för att omvandla mått och temperaturer direkt.</p>
+        </article>
+      </a>
+      <a routerLink="/about">
+        <article>
+          <h3>Om webbplatsen</h3>
+          <p>Läs mer om hur denna webbapp byggdes och vad jag lärt mig.</p>
+        </article>
+      </a>
     </section>
   </div>
