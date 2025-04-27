@@ -11,3 +11,5 @@ Webbplatsen innehåller tre huvudsidor:
 
 Webbplatsen använder Angulars routing, komponenter och databindning.
 Den är byggd med responsiv design och är stylad med CSS, både globalt och per komponent. Projektet är publicerat på GitHub och Netlify.
+
+Publicerad länk: https://heartfelt-tanuki-d5b434.netlify.app
