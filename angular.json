@@ -27,7 +27,7 @@
               },
               {
                 "glob": "_redirects",
-                "input": "public",
+                "input": "src",
                 "output": "/"
               }
             ],
